@@ -4,14 +4,6 @@
     height: 100vh;
     width: 100%;
 }
-
 .container {
     background-color: red;
-}
-
-.row {
-    background-size: auto;
-    background-color: blue;
-    height: fit-content;
-    width: 100%
 }
