@@ -196,3 +196,24 @@ p {
                     #product-more {
                       margin: 0 auto -42px auto;
                     }
+
+                      /* ABOUT US */
+                      #aboutus {
+                        margin: 80px auto 80px auto;
+                      }
+
+                      /* 3つの組織文化と画像を入れる枠 */
+                      #aboutus > div {
+                        display: flex;
+                      }
+
+                        /* 画像 */
+                        .culture-img {
+                          width: 100%;
+                          align-self: flex-start;
+                        }
+
+                        .culture-img2 {
+                          margin-top: 50px;
+                          width: 100%;
+                        }
