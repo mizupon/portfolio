@@ -217,3 +217,35 @@ p {
                           margin-top: 50px;
                           width: 100%;
                         }
+
+                          /* 3つの組織文化の表 */
+                          .culture-table {
+                            max-width: 500px;
+                            margin-right: 50px;
+                          }
+
+                            /* 番号 */
+                            .culture-num {
+                              font-size: 80px;
+                              color: #2710d5;
+                              margin: 0 20px 0 0;
+                            }
+
+                            /* 組織文化英語 */
+                            .culture-en {
+                              color: #2710d5;
+                              font-weight: bold;
+                              font-size: 24px;
+                              display: block; 
+                            }
+
+                            /* 組織文化日本語 */
+                            .culture-jp {
+                              font-size: 28px;
+                              font-weight: bold;
+                            }
+
+                            /* 説明文 */
+                            .culture-description {
+                              margin: 0;
+                            }
