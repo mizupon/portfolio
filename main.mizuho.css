@@ -1,9 +1,49 @@
-.bg_frame {
-    background-image: url("img/back.png");
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
+body {
+    font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Arial,sans-serif; 
 }
-.container {
-    background-color: red;
+
+p {
+    font-size:15px;
+}
+
+/* ==========
+   PCのスタイル
+   ========== */
+   /* 横幅設定 */
+   body {
+    max-width: 1080px;
+    min-width: 960px;
+    margin: 0 auto 0 auto;
+   }
+
+   /* ヘッダー */
+   header {
+    display: flex;
+    justify-content: space-between;
+   }
+
+/* ナビゲーションのレイアウト */
+#nav-pc {
+    text-align: right;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+/* ねびゲーションのリンクの装飾設定 */
+#nav-pc > a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+#nav-pc > a:link {
+    color: #0d0d0d;
+}
+#nav-pc > a:visited {
+    color: #0d0d0d;
+}
+#nav-pc a:hover {
+    color:#0d0d0d;
+    text-decoration: underline;
+}
+#nav-pc > a:active {
+    color:#0d0d0d;
 }
