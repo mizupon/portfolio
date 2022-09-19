@@ -18,6 +18,14 @@ p {
     margin: 0 auto 0 auto;
    }
 
+   .logo {
+    text-align: center;
+   }
+   .logo img {
+    display: inline-block;
+    margin-bottom: 5px;
+   }
+
    /* ヘッダー */
    header {
     display: flex;

@@ -1,0 +1,19 @@
+body {
+    font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Arial,sans-serif; 
+    background-image: url(images/mizuho/meisai.jpg);
+    background-size: cover;
+}
+.logo {
+    text-align: center;
+}
+.logo img {
+    display: inline-block;
+}
+.header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header ul {
+    display: flex;
+}
